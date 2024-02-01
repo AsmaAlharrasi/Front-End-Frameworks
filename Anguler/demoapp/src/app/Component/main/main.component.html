@@ -1,0 +1,12 @@
+<div class="card mt-5" style="width: 18rem;">
+    <img src="../../../assets/photo.avif" class="card-img-top" alt="card-image">
+    <div class="card-body">
+        <p class="card-title">{{UserValue.name}}</p>
+        <p class="card-subtitle">{{UserValue.age}}</p>
+        <p class="card-subtitle">{{UserValue.Gender}}</p>
+        <p class="card-text">{{UserValue.Describtion}}</p>
+        <ul>
+            <li *ngFor="let item of UserValue.skills">{{item}}</li>
+        </ul>
+    </div>
+  </div>
